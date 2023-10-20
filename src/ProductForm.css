@@ -1,0 +1,91 @@
+.heading {
+  /* Text style and alignment for the heading */
+  color: rgb(133, 141, 148);
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+.formContainer {
+  /* Center the form container */
+  margin: auto;
+  text-align: center;
+  width: 260px;
+}
+
+.inputWrapper {
+  /* Style for input wrappers */
+  position: relative;
+  margin-bottom: 40px;
+  text-align: left;
+  display: block;
+  padding-top: 10px;
+}
+
+.inputWrapper span {
+  /* Style for input labels */
+  display: inline-block;
+  width: 100px;
+  color: grey;
+  font-family: 'Arial', sans-serif;
+}
+
+.editableInput {
+  /* Style for editable input fields */
+  margin-left: 10px;
+  width: 140px;
+  display: inline-block;
+}
+
+.editableInput:focus {
+  /* Remove outline on editable input focus */
+  outline: none;
+}
+
+.inputLine {
+  /* Style for the line under input fields */
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 260px;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+
+.errorWrapper {
+  /* Margin above error message */
+  margin-top: 10px;
+}
+
+.errorMessage {
+  /* Style for error message text */
+  color: red;
+  text-align: center;
+}
+
+.buttonWrapper {
+  /* Style for the button wrapper */
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submitButton {
+  /* Style for the submit button */
+  background-color: rgb(112, 128, 144);
+  color: white;
+  padding: 10px 20px;
+  margin-right: 60px;
+  border: none;
+  cursor: pointer;
+}
+
+.cancelButton {
+  /* Style for the cancel button */
+  background-color: lightgrey;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+} 
